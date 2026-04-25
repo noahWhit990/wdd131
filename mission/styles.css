@@ -1,0 +1,53 @@
+#wrapper {
+    width: 50%;
+    border: 1px solid darkgrey;
+    margin: auto;
+    padding: 50px;
+}
+
+header {
+    justify-self: center;
+    text-align: center;
+}
+
+header p {
+    color: #035f9c;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+main {
+    padding: 0 75px;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+main p:nth-of-type(2) {
+    font-style: italic;
+}
+
+ol {
+    text-align: left;
+    line-height: 1.3em;
+    margin-bottom: 50px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+#logo {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
