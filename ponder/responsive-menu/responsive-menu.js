@@ -10,8 +10,9 @@ function handleMenuButtonClick(event) {
 
     // toggle on/off the menu display
 
-    // grab the nav from the dom
+    // grab the nav from the DOM
     // toggle the .hide class on/off
     let navSelector = document.querySelector("nav");
     navSelector.classList.toggle("hide");
+    menuButton.classList.toggle("change");
 }
