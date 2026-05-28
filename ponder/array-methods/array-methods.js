@@ -47,7 +47,7 @@ let filteredArray = names.filter((name) => {
 console.log(filteredArray);
 
 // reduce method: runs through the items in an array through a function
-// and stores themm in one final value
+// and stores them in one final value
 const numbers = [175, 50, 25];
 
 const result = numbers.reduce(difference);
