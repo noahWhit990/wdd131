@@ -8,7 +8,6 @@
 
 body {
     display: flex;
-    justify-self: center;
     flex-direction: column;
     max-width: 1280px;
     margin: auto;
@@ -47,6 +46,7 @@ header {
     align-items: center;
     border: 1px solid black;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .search-container input {
@@ -57,10 +57,10 @@ header {
 }
 
 .search-container img {
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     padding: 0.75em;
-    border-left: 1px solid #ccc; /* vertical line */
+    border-left: 1px solid #ccc;
 }
 
 .recipe {
