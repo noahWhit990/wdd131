@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.title img {
+    width: 100px;
+    height: auto;
+}
+
+.title h1 {
+    font-family: "Amatic SC";
+    align-self: center;
+    font-size: 72px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.search-container input {
+    flex: 1;
+    border: none;
+    padding: 0.75em;
+    outline: none;
+}
+
+.search-container img {
+    width: 24px;
+    height: 24px;
+    padding: 0.75em;
+    border-left: 1px solid #ccc; /* vertical line */
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.recipe img {
+    max-width: 400px;
+    height: auto;
+}
+
+.recipe h2 {
+    font-family: "Amatic SC";
+    font-size: 32px;
+    color: rgb(54, 184, 228);
+}
+
+.recipe button {
+    width: 50px;
+}
+
+.recipe p {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social img {
+    width: 25px;
+    height: auto;
+}
+
+@media screen and (min-width: 750px) {
+    .recipe {
+        width: 100%;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    #recipe-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #description {
+        display: block;
+    }
+}
