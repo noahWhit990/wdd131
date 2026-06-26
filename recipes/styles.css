@@ -63,6 +63,12 @@ header {
     border-left: 1px solid #ccc;
 }
 
+#search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .recipe {
     display: flex;
     flex-direction: column;
@@ -84,8 +90,15 @@ header {
     color: rgb(54, 184, 228);
 }
 
-.recipe button {
-    width: 50px;
+.tag {
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    border: 1px solid grey;
+    border-radius: 1px;
+    background-color: #eee;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    align-self: start;
 }
 
 .recipe p {
